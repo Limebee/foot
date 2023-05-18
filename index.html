@@ -16,22 +16,45 @@
       <input class="outline outline-offset-2 outline-cyan-500 " type="text" id="word">
       <button class="bg-[#146D8C] rounded-md" type="button" name="button" id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
       </div>
-      <section class="flex justify-center">
+      <div class="flex justify-center pt-10">
       <div class="flex justify-center w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <div class="flex justify-center px-4 pt-4">
-          <div class="container m-auto grid">
-    <h3 id="species" class="mb-1 text-xl font-medium text-gray-900 dark:text-white"></h3>
-    <h3 id="scientific" class="text-sm text-gray-500 dark:text-gray-400"></h3>
-    <img class="fish" src="" alt="">
+        <div>
+          <div >
+    <h3 id="species" class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Name</h3>
+    <h3 id="scientific" class="text-sm text-gray-500 dark:text-gray-400">Species</h3>
+    <img class="fish" src="https://images.pexels.com/photos/2156311/pexels-photo-2156311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
           </div>
         </div>
       </div>
-    <ul></ul>
-  <h4></h4>
-  <p id="population"></p>
-  <p id="location"></p>
-  <p id="status"></p>
+    </div>
+    <div class="container m-auto grid grid-cols-3 gap-4 pt-10">
+      <section>
+      <section class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+        <h1 class="pb-5">Physical Description</h1>
+        <p class="text-sm"id="physicalDescription"></p>
+      </section>
     </section>
+    <section class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+      <h1 class="pb-5">Habitat</h1>
+    <ul class="text-sm" id="habitat"></ul>
+    </section>
+    <section class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+      <h1 class="pb-5">Population</h1>
+      <p class="text-sm" id="population"></p>
+    </section>
+    <section class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+      <h1 class="pb-5">Location</h1>
+      <p class="text-sm" id="location"></p>
+    </section>
+    <section class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+  <h1 class="pb-5">Population Status</h1>
+  <p class="text-sm" id="populationStatus"></p>
+    </section>
+    <section class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+      <h1 class="pb-5">Fishing Rate</h1>
+      <p class="text-sm"id="fishingRate"></p>
+        </section>
+    </div>
 	<script src="main.js"></script>
   <script src="https://kit.fontawesome.com/c15b095f83.js" crossorigin="anonymous"></script>
   </body>

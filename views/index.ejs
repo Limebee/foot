@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fish</title>
+    <link rel="icon" class="fa-solid fa-fish-fins" style="color: #23C0D1;">
+    <link href="output.css" rel="stylesheet" type="text/css">
+  </head>
+  <header class="flex justify-center">
+    <img class="w-50 md:w-60 lg:w-70" class="logo" src="logo.png" alt="">
+  </header>
+  <body class="bg-[#D34C44]">
+    <div class="flex justify-center gap-4">
+      <input class="outline outline-offset-2 outline-cyan-500 " type="text" id="word">
+      <button class="bg-[#146D8C] rounded-md" type="button" name="button" id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="flex justify-center pt-10">
+      <div class="flex justify-center w-full max-w-sm bg-[#B4D2D2] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div>
+          <div class="p-10">
+    <h3 id="commonName" class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Name</h3>
+    <h3 id="officialName" class="text-sm text-gray-500 dark:text-gray-400">Official Name</h3>
+    <img class="flag" src="https://images.pexels.com/photos/269724/pexels-photo-269724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container m-auto grid grid-cols-3 gap-4 pt-10 pb-10">
+      <section>
+      <section class="w-full max-w-sm bg-[#B4D2D2] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+        <h1 class="pb-5">Capital</h1>
+        <p class="text-sm"id="capital"></p>
+      </section>
+    </section>
+    <section class="w-full max-w-sm bg-[#B4D2D2] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+      <h1 class="pb-5">Continent</h1>
+    <ul class="text-sm" id="continent"></ul>
+    </section>
+    <section class="w-full max-w-sm bg-[#B4D2D2] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+      <h1 class="pb-5">Population</h1>
+      <p class="text-sm" id="population"></p>
+    </section>
+    <section class="w-full max-w-sm bg-[#B4D2D2] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+      <h1 class="pb-5">Language</h1>
+      <p class="text-sm" id="language"></p>
+    </section>
+    <section class="w-full max-w-sm bg-[#B4D2D2] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+  <h1 class="pb-5">Coat of Arms</h1>
+  <img class="text-sm" id="coatOfArms" src="">
+    </section>
+    <section class="w-full max-w-sm bg-[#B4D2D2] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-10">
+      <h1 class="pb-5">Region</h1>
+      <p  class="text-sm" id="region"></p>
+        </section>
+    </div>
+    
+	<script  src="main.js"></script>
+  <script src="https://kit.fontawesome.com/c15b095f83.js" crossorigin="anonymous"></script>
+  </body>
+  <footer class="footer footer-center p-4 bg-[#C77F79] text-base-content">
+    <div>
+      <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+    </div>
+  </footer>
+
+</html>

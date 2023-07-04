@@ -1,10 +1,31 @@
 {
-
   "scripts": {
-    "build": "tailwindcss -i input.css -o output.css --watch"
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "star": "node server.js"
   },
-
   "devDependencies": {
+    "daisyui": "^3.1.0",
     "tailwindcss": "^3.3.2"
+  },
+  "name": "fish-index",
+  "description": "Link to project: https://fishing-index.onrender.com/",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Limebee/Fish-Index.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Limebee/Fish-Index/issues"
+  },
+  "homepage": "https://github.com/Limebee/Fish-Index#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
   }
 }

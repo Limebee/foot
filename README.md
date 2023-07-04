@@ -1,3 +1,3 @@
 # globalle
 
-Link to project: https://fishing-index.onrender.com/
+Link to project: https://globalle.onrender.com/

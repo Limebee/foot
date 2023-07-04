@@ -1,4 +1,7 @@
 {
+"engines": {
+    "node": ">=16.0.0 <17.0.0"
+  },
   "scripts": {
     "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
     "star": "node server.js"

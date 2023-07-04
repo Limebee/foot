@@ -1,3 +1,3 @@
-# Fish-Index
+# globalle
 
 Link to project: https://fishing-index.onrender.com/

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>globalle | Explore the World</title>
+    <link rel="icon" class="fa-solid fa-fish-fins" style="color: #23C0D1;">
+    <link href="css/output.css" type="text/css" rel="stylesheet">
+  </head>
+  <header class="flex justify-center">
+    <div class="">
+      <div class="">
+        <img class="w-50 md:w-60 lg:w-70" class="logo" src="css/logo.png" alt="">
+      </div>
+    </div>
+  </header>
+  <body class="bg-[#D34C44]">
+    <div class="bg-[#C77F79] hero min-h-screen" id="find">
+      <section class="hero-content flex flex-col text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl">Globalle</h1>
+        <p class="">Explore the World</p><br>
+      </div>
+      
+      <div class="flex flex-row">
+        <input class="input input-bordered input-primary w-full max-w-xs" type="text" id="word">
+       <a href="#info"><button class="bg-[#146D8C] btn btn-active btn-secondary" type="button" name="button" id="search"><i class="fa-solid fa-magnifying-glass"></i></button></a>
+      </div>
+    </section>
+      </div>
+      <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2" id="info">
+        <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+          <div
+            class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
+          >
+            <h2 class="text-2xl font-bold text-gray-900 md:text-3xl" id="commonName">
+              Name
+            </h2>
+      
+            <p class="hidden text-gray-500 md:mt-4 md:block" id="officialName">
+              Offical Name
+            </p>
+      
+            <div class="mt-4 md:mt-8">
+            </div>
+          </div>
+        </div>
+      
+        <img
+          alt="globe"
+          src="https://images.pexels.com/photos/269724/pexels-photo-269724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          class="h-56 w-full sm:h-full flag"
+        />
+      </section>
+
+      <section class="flex justify-center bg-[#B4D2D2] h-80">
+        <div>
+          <div class="flex flex-row gap-20 p-20">
+            <section>
+              <h1 class="flex justify-center">Capital</h1><br>
+              <p class="text-sm flex justify-center" id="capital"></p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="flex justify-center bg-[#B4D2D2] h-80">
+        <div>
+          <div class="flex flex-row gap-20 p-20">
+            <section>
+              <h1 class="flex justify-center">Continent</h1><br>
+              <p class="text-sm flex justify-center" id="continent"></p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="flex justify-center bg-[#B4D2D2] h-80">
+        <div>
+          <div class="flex flex-row gap-20 p-20">
+            <section>
+              <h1 class="flex justify-center">Population</h1><br>
+              <p class="text-sm flex justify-center" id="population"></p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="flex justify-center bg-[#B4D2D2] h-80">
+        <div>
+          <div class="flex flex-row gap-20 p-20">
+            <section>
+              <h1 class="flex justify-center" class="pb-5">Language</h1><br>
+              <p class="text-sm flex justify-center" id="language"></p>
+          </div>
+        </div>
+      </section>
+      <section class="flex justify-center bg-[#B4D2D2] h-80">
+        <div>
+          <div class="flex flex-row gap-20 p-20">
+            <section>
+              <h1 class="flex justify-center">Coat of Arms</h1><br>
+              <img class="w-28 h-28" id="coatOfArms" src="https://images.pexels.com/photos/15924649/pexels-photo-15924649/free-photo-of-medieval-coat-of-arms-at-the-puerta-de-bisagra-gate-in-toledo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          </div>
+        </div>
+      </section>
+      <section class="flex justify-center bg-[#B4D2D2] h-80">
+        <div>
+          <div class="flex flex-row gap-20 p-20">
+            <section>
+              <h1 class="flex justify-center">Region</h1><br>
+              <p  class="text-sm" id="region"></p>
+          </div>
+        </div>
+      </section>
+    
+	<script  src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/c15b095f83.js" crossorigin="anonymous"></script>
+  </body>
+  <footer class="footer footer-center p-4 bg-[#C77F79] text-base-content">
+    <div>
+      <p>Copyright © 2023 - All right reserved</p>
+    </div>
+  </footer>
+
+</html>

@@ -15,110 +15,58 @@
       </div>
     </div>
   </header>
-  <body class="bg-[#D34C44]">
-    <div class="bg-[#C77F79] hero min-h-screen" id="find">
-      <section class="hero-content flex flex-col text-center">
-      <div class="max-w-md">
-        <h1 class="text-5xl">Globalle</h1>
-        <p class="">Explore the World</p><br>
+  <body class="">
+    <div class="flex justify-center">
+    <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Name</h2>
+          <div class="flow-root rounded-lg border border-gray-100 py-3 shadow-sm">
+            <dl class="-my-3 divide-y divide-gray-100 text-sm">
+                <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900">Offical Name</dt>
+                    <dd class="text-gray-700 sm:col-span-2"></dd>
+                  </div>
+              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                <dt class="font-medium text-gray-900">Capital</dt>
+                <dd class="text-gray-700 sm:col-span-2"></dd>
+              </div>
+          
+              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                <dt class="font-medium text-gray-900">Contient</dt>
+                <dd class="text-gray-700 sm:col-span-2"></dd>
+              </div>
+          
+              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                <dt class="font-medium text-gray-900">Language</dt>
+                <dd class="text-gray-700 sm:col-span-2"></dd>
+              </div>
+          
+              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                <dt class="font-medium text-gray-900">Population</dt>
+                <dd class="text-gray-700 sm:col-span-2"></dd>
+              </div>
+          
+              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                <dt class="font-medium text-gray-900">Coat of Arms</dt>
+                <dd class="text-gray-700 sm:col-span-2">
+                    <img src="https://images.pexels.com/photos/12405243/pexels-photo-12405243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Shoes" class="rounded-xl" />
+                </dd>
+              </div>
+            </dl>
+          </div>
+          <div class="card-actions">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
       </div>
-      
-      <div class="flex flex-row">
-        <input class="input input-bordered input-primary w-full max-w-xs" type="text" id="word">
-       <a href="#info"><button class="bg-[#146D8C] btn btn-active btn-secondary" type="button" name="button" id="search"><i class="fa-solid fa-magnifying-glass"></i></button></a>
-      </div>
-    </section>
-      </div>
-      <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2" id="info">
-        <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-          <div
-            class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
-          >
-            <h2 class="text-2xl font-bold text-gray-900 md:text-3xl" id="commonName">
-              Name
-            </h2>
-      
-            <p class="hidden text-gray-500 md:mt-4 md:block" id="officialName">
-              Offical Name
-            </p>
-      
-            <div class="mt-4 md:mt-8">
-            </div>
-          </div>
-        </div>
-      
-        <img
-          alt="globe"
-          src="https://images.pexels.com/photos/269724/pexels-photo-269724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          class="h-56 w-full sm:h-full flag"
-        />
-      </section>
-
-      <section class="flex justify-center bg-[#B4D2D2] h-80">
-        <div>
-          <div class="flex flex-row gap-20 p-20">
-            <section>
-              <h1 class="flex justify-center">Capital</h1><br>
-              <p class="text-sm flex justify-center" id="capital"></p>
-            </section>
-          </div>
-        </div>
-      </section>
-      <section class="flex justify-center bg-[#B4D2D2] h-80">
-        <div>
-          <div class="flex flex-row gap-20 p-20">
-            <section>
-              <h1 class="flex justify-center">Continent</h1><br>
-              <p class="text-sm flex justify-center" id="continent"></p>
-            </section>
-          </div>
-        </div>
-      </section>
-      <section class="flex justify-center bg-[#B4D2D2] h-80">
-        <div>
-          <div class="flex flex-row gap-20 p-20">
-            <section>
-              <h1 class="flex justify-center">Population</h1><br>
-              <p class="text-sm flex justify-center" id="population"></p>
-            </section>
-          </div>
-        </div>
-      </section>
-      <section class="flex justify-center bg-[#B4D2D2] h-80">
-        <div>
-          <div class="flex flex-row gap-20 p-20">
-            <section>
-              <h1 class="flex justify-center" class="pb-5">Language</h1><br>
-              <p class="text-sm flex justify-center" id="language"></p>
-          </div>
-        </div>
-      </section>
-      <section class="flex justify-center bg-[#B4D2D2] h-80">
-        <div>
-          <div class="flex flex-row gap-20 p-20">
-            <section>
-              <h1 class="flex justify-center">Coat of Arms</h1><br>
-              <img class="w-28 h-28" id="coatOfArms" src="https://images.pexels.com/photos/15924649/pexels-photo-15924649/free-photo-of-medieval-coat-of-arms-at-the-puerta-de-bisagra-gate-in-toledo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-          </div>
-        </div>
-      </section>
-      <section class="flex justify-center bg-[#B4D2D2] h-80">
-        <div>
-          <div class="flex flex-row gap-20 p-20">
-            <section>
-              <h1 class="flex justify-center">Region</h1><br>
-              <p  class="text-sm" id="region"></p>
-          </div>
-        </div>
-      </section>
-    
+    </div>
 	<script  src="js/main.js"></script>
   <script src="https://kit.fontawesome.com/c15b095f83.js" crossorigin="anonymous"></script>
   </body>
-  <footer class="footer footer-center p-4 bg-[#C77F79] text-base-content">
-    <div>
-      <p>Copyright © 2023 - All right reserved</p>
-    </div>
+  
   </footer>
 
 </html>

@@ -16,53 +16,60 @@
     </div>
   </header>
   <body class="">
-    <div class="flex justify-center">
-    <div class="card w-96 bg-base-100 shadow-xl">
-        <figure class="px-10 pt-10">
-          <img src="https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Shoes" class="rounded-xl" />
-        </figure>
-        <div class="card-body items-center text-center">
-          <h2 class="card-title">Name</h2>
-          <div class="flow-root rounded-lg border border-gray-100 py-3 shadow-sm">
-            <dl class="-my-3 divide-y divide-gray-100 text-sm">
-                <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
-                    <dt class="font-medium text-gray-900">Offical Name</dt>
-                    <dd class="text-gray-700 sm:col-span-2"></dd>
+    <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row">
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img id="playerImage" src="" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                <div class="card-body items-center text-center">
+                  <h2 id="playerName" class="card-title">Name</h2>
+                  <div class="flow-root rounded-lg border border-gray-100 py-3 shadow-sm">
+                    <dl class="-my-3 divide-y divide-gray-100 text-sm">
+                        <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                            <dt class="font-medium text-gray-900">Nationality</dt>
+                            <dd id="playerNation" class="text-gray-700 sm:col-span-2"></dd>
+                          </div>
+                      <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                        <dt class="font-medium text-gray-900">Birth Date</dt>
+                        <dd id="birthDate" class="text-gray-700 sm:col-span-2"></dd>
+                      </div>
+                  
+                      <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                        <dt class="font-medium text-gray-900">Club</dt>
+                        <dd id="team" class="text-gray-700 sm:col-span-2"></dd>
+                      </div>
+                  
+                      <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                        <dt class="font-medium text-gray-900">Position</dt>
+                        <dd id="position" class="text-gray-700 sm:col-span-2"></dd>
+                      </div>
+                  
+                      <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                        <dt class="font-medium text-gray-900">Prefered Foot</dt>
+                        <dd id="foot" class="text-gray-700 sm:col-span-2"></dd>
+                      </div>
+                  
+                      <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                        <dt class="font-medium text-gray-900">Instagram</dt>
+                        <dd class="text-gray-700 sm:col-span-2">
+                            <a id="insta" href=""><i class="fa-brands fa-instagram"></i></a>
+                        </dd>
+                      </div>
+                    </dl>
                   </div>
-              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
-                <dt class="font-medium text-gray-900">Capital</dt>
-                <dd class="text-gray-700 sm:col-span-2"></dd>
+                </div>
               </div>
-          
-              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
-                <dt class="font-medium text-gray-900">Contient</dt>
-                <dd class="text-gray-700 sm:col-span-2"></dd>
-              </div>
-          
-              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
-                <dt class="font-medium text-gray-900">Language</dt>
-                <dd class="text-gray-700 sm:col-span-2"></dd>
-              </div>
-          
-              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
-                <dt class="font-medium text-gray-900">Population</dt>
-                <dd class="text-gray-700 sm:col-span-2"></dd>
-              </div>
-          
-              <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
-                <dt class="font-medium text-gray-900">Coat of Arms</dt>
-                <dd class="text-gray-700 sm:col-span-2">
-                    <img src="https://images.pexels.com/photos/12405243/pexels-photo-12405243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Shoes" class="rounded-xl" />
-                </dd>
-              </div>
-            </dl>
-          </div>
-          <div class="card-actions">
-            <button class="btn btn-primary">Buy Now</button>
+        
+          <div>
+            <h1 class="text-5xl font-bold">Box Office News!</h1>
+            <div class="flex justify-center p-20">
+                <input type="text" name="country" class="border-2 border-rose-600 pr-10" autocomplete="off">
+                <button id="search" class="btn">Button</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 	<script  src="js/main.js"></script>
   <script src="https://kit.fontawesome.com/c15b095f83.js" crossorigin="anonymous"></script>
   </body>

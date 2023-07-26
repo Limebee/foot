@@ -3,26 +3,27 @@ document.querySelector('#search').addEventListener('click', getFetch)
 function getFetch(){
   const name = document.querySelector('input').value
   
-  const url = `https://restcountries.com/v3.1/name/${name}`
+  const url = `https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${name}`
 
-  fetch(url, {mode:'cors'})
+  fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
-        let langs = Object.values(data[0].languages)
         
         
-  
-        document.querySelector('#commonName').innerText = data[0].name.common
-        document.querySelector('#officialName').innerText = data[0].name.official
-        document.querySelector('#continent').innerHTML = data[0].continents
-        document.querySelector('#capital').innerHTML = data[0].capital
-        document.querySelector('#population').innerText = data[0].population
-        document.querySelector('#language').innerHTML = langs
-        document.querySelector('#region').innerHTML = data[0].subregion
-        document.querySelector('#coatOfArms').src = data[0].coatOfArms.png
-        document.querySelector('.flag').src = data[0].flags.png
-        document.querySelector('.flag').alt = data[0].flags.alt
+        
+        document.querySelector('#playerName').innerText = data.player[0].strPlayer
+        document.querySelector('#playerImage').src = data.player[0].strThumb
+        document.querySelector('#playerNation').innerText = data.player[0].strNationality
+        document.querySelector('#birthDate').innerText = data.player[0].dateBorn
+        document.querySelector('#team').innerText = data.player[0].strTeam
+        document.querySelector('#position').innerText = data.player[0].strPosition
+        document.querySelector('#foot').innerText = data.player[0].strSide
+        document.querySelector('#insta').href = data.player[0].strInstagram
+        
+
+
+       
       })
       .catch(err => {
           console.log(`error ${err}`)

@@ -19,7 +19,7 @@ function getFetch(){
         document.querySelector('#team').innerText = data.player[0].strTeam
         document.querySelector('#position').innerText = data.player[0].strPosition
         document.querySelector('#foot').innerText = data.player[0].strSide
-        document.querySelector('#insta').href = data.player[0].strInstagram
+        document.querySelector('#jersey').innerText = data.player[0].strNumber
         
 
 

@@ -1,5 +1,5 @@
 # foot
-foot is an app where user can search for inforamtion about soccer players.
+foot is an app where users can search for inforamtion about soccer players.
 
 Link to project: https://footindex.onrender.com/ 
 

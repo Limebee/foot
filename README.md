@@ -9,3 +9,12 @@ Link to project: https://footindex.onrender.com/
 # How It's Made
 
 Tech Used: HTML, Javascript, Tailwind
+
+This app is styled using tailwind. The app uses the SportsDB api to retrieve data about soccer players. The api is called using javascript.
+
+# Optimizations
+
+I would like to add a aearch results page when a user searches for a player. Also, I want each player to have a page showing their information.
+
+# Lessons Learned
+I learn more about working with apis snd how to call them. This project allowed me to get more familiar with using Postman. It allowed me to learn to test apis.
